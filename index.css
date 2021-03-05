@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.controle-esquerda {
+    width: 130px;
+    height: 320px;
+    border-radius: 70px 0 0px 70px;
+    border: 10px solid whitesmoke;
+    margin-right: 20px;
+}
+
+.joystick-esquerda {
+    border-radius: 400px;
+    
+    position: relative;
+    top: 35px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    border: 10px solid whitesmoke;
+    background-color: whitesmoke;
+}
+
+.controle-direita {
+    transform: rotate(180deg);
+    width: 130px;
+    height: 320px;
+    border-radius: 70px 0 0px 70px;
+    border: 10px solid whitesmoke;
+    background-color: whitesmoke;
+}
+
+.joystick-direita {
+    border-radius: 400px;
+    
+    position: relative;
+    top: 85px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    border: 10px solid #e74c3c;
+    background-color: #e74c3c;
+}
+
+body {
+    background-color: #e74c3c;
+}
